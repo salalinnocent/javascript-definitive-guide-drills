@@ -1,6 +1,8 @@
 
 // A class representing the range of values
-
+//When a JS Class extends another class, the constructor function must call super()
+// before it uses the "this" keyword. So, if the custom element class has a constructor, it should call
+// super() [with no arguments before doing anything else]
 
 //creating an inherit function that can 
 

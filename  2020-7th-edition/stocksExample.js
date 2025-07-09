@@ -1,6 +1,6 @@
+
+
 //Method and this keyword are central to the object oriented programming language
-
-
 function computeValue(portfolio) {
     let total = 0.0;
 

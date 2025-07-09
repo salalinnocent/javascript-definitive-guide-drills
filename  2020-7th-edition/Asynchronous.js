@@ -497,7 +497,7 @@ async function f(x) {
     return x
 }
 //Detail of promise returning function wrapped around the body of original function
-//NOTE: think of await keyword: marker that breaks the fucntion body into sync chunks
+//NOTE: think of await keyword: marker that breaks the function body into sync chunks
 function f(x) {
     return new Promise(function (resolve, reject) {
         try {
@@ -565,7 +565,7 @@ async function test() {
     }
 }
 
-//A promise fied version of set-TimeOut that we can use await with 
+//A promise fied version of set-TimeOut that we can use await with.
 
 function clock(interval, max = Infinity) {
 
@@ -586,3 +586,5 @@ function clock(interval, max = Infinity) {
         
     }
 }
+
+//async implicitly returns a promise 
