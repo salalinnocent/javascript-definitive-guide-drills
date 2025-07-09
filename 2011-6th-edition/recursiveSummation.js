@@ -1,4 +1,6 @@
-function flexisum(arguments) {
+
+//recursiveSummation function to sum up any mix of values in an array
+function recursiveSummation(arguments) {
     let total = 0;
     for (let i = 0; i < arguments.length; i++) {
 
@@ -6,7 +8,7 @@ function flexisum(arguments) {
         if (element == null) continue;
 
         if (Array.isArray(element))
-            n = flexisum.apply(this, element);
+            n = recursiveSummation.apply(this, element);
 
         else if (typeof element === `function`)
             n = Number(element());
@@ -26,4 +28,4 @@ function flexisum(arguments) {
 }
 
 var dash = [1, 2, 3, 4, 5, 6, true]
-console.log(flexisum(dash))
+console.log(recursiveSummation(dash))

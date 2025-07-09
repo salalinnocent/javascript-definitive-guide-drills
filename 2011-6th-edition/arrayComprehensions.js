@@ -1,3 +1,5 @@
+//arrayComprehension.js
+
 let evenSquare = [];
 for (x in Range(0, 10)) {
     if (x % 2 === 0)

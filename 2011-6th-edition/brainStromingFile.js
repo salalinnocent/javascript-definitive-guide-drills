@@ -1,10 +1,11 @@
+
 function Card(suit, rank) {
     this.suit = suit
     this.rank = rank
 };
 function enumeration(namesToValues) {
     const enumeration = function () {
-        throw 'Way to stop access to create new instances of enum types'
+      console.log("way to stop access to create new instances of enum types")
     };
 
     //Creating a prototype to make new obects 

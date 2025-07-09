@@ -1,3 +1,5 @@
+//addPrivateProperty.js
+
 function addPrivateProperty(o, name, predicate) {
     var value;
 

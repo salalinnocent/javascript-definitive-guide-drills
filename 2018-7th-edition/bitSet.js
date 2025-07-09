@@ -1,5 +1,5 @@
 const Bitset = (function () {
-    function isValid(set, n) {
+  function isValid(set, n) {
 
     }
 })

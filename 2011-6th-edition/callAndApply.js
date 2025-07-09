@@ -6,7 +6,6 @@ f.apply(o)
 o.m = f // make f temporary method of o
 o.m() // Inovoke it passing no args
 delete o.m; //Remove temporary method 
-
 // the first args applied on call or apply will become the value 'this'
 
 //to pass two numbers to the function f() and invoke it as a method of object o
@@ -32,3 +31,4 @@ function trace(o, m) {
         return result //return result
     }
 }
+console.log(trace());

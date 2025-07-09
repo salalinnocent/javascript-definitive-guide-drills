@@ -1,3 +1,5 @@
+//how to create a copy of an arraycopy
+
 function arraycopy(from, from_start, to, to_start, length) {
     for (let i = 0; i < length; i++) {
         to[to_start + i] = from[from_start + i] // to comes first to save the value.length
